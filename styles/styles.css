@@ -26,6 +26,15 @@
  display: flex;
  justify-content: center;
  align-items: center;
+ flex-direction: column;
+ padding: 167px;
+}
+.form-title{
+    font-family: var(--font-familySecond);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 2%;
 }
 .form{
     max-width: 736px;

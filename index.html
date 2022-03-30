@@ -135,15 +135,18 @@
       <!-- CHRISTOPHER DONGO   PARTE II -->
 
       <!--some-->
-      <section>
-        <div>
-          <h2>Some Generous Words</h2>
-          <p>Some of my favorite testimonials from my clients</p>
+      <section
+      class="container-some"
+      >
+        <div class="some-container_title">
+          <h2 class="some-title">Some Generous Words</h2>
+          <p class="some-parrafo">Some of my favorite testimonials from my clients</p>
         </div>
 
-        <div>
-          <div>
-            <p>
+        <div class="some-description">
+            <img alt="flexha izquierda" src="./assets/left.svg" class="some_flechas-left"/>
+          <article class="someCard">
+            <p class="someCard_parrafo">
               I had grown a little bit disappointed when I realized that my work
               would not be taking me in any new, creative design directions.
               Thankfully, I found Salman Khan and his creativity that goes above
@@ -151,12 +154,14 @@
             </p>
             <span> Aika Chan </span>
             <!--icons -->
-            <div></div>
+            <div class="some-container_icons">
+ 
+            </div>
             <!--flechas iconos-->
-          </div>
+          </article>
 
-          <div>
-            <p>
+          <article class="someCard">
+            <p class="someCard_parrafo">
               I had grown a little bit disappointed when I realized that my work
               would not be taking me in any new, creative design directions.
               Thankfully, I found Salman Khan and his creativity that goes above
@@ -164,14 +169,15 @@
             </p>
             <span> Aika Chan </span>
             <!--icons -->
-            <div></div>
-            <!--flechas iconos-->
-          </div>
+          </article>
+          <img alt="flexha derecha" src="./assets/right.svg" class="some_flechas-right"/>
         </div>
+
+
       </section>
 
       <!--about-->
-      <section>
+      <section class="container-about">
         <div>
           <h3>A Little Bit About Me</h3>
           <p>
@@ -198,21 +204,23 @@
 
       <!--formulario-->
 
-      <section>
+      <section class="container-form">
         <!--formulario contact-->
-        <form>
-          <div>
-            <input type="text" placeholder="First Name" />
-            <input type="text" placeholder="Last Name" />
+        <form class="form">
+          <div class="form-group_container-input">
+            <input type="text" placeholder="First Name" class="form-group_input"/>
+            <input type="text" placeholder="Last Name" class="form-group_input"/>
           </div>
-          <div>
-            <input type="text" placeholder="Subject" />
-            <input type="email" placeholder="Email" />
+          <div class="form-group_container-input">
+            <input type="text" placeholder="Subject" class="form-group_input form-group_input-subject"/>
+            <input type="email" placeholder="Email"  class="form-group_input"/>
           </div>
 
-          <textarea placeholder="Your Message" cols="50" rows="20"> </textarea>
+          <textarea 
+          class="form-textarea"
+          placeholder="Your Message" cols="50" rows="20"> </textarea>
 
-          <input type="submit" value="send Message" />
+          <input type="submit" value="send Message" class="form-button_submit"/>
         </form>
       </section>
     </main>

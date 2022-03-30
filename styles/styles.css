@@ -154,3 +154,44 @@ h2{
     background-color: transparent;
     border: 4px solid white;
 }
+/*CHRISTOPHER DONGO*/
+
+
+.container-form{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.form{
+    max-width: 736px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-direction: column;
+}
+
+.form-group_container-input{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.form-group_input{
+    width: 100%;
+    border-radius: 30px;
+    background-color: var(--color-bg-input);
+    padding: 28px;
+    border: none;
+}
+.form-group_input-subject{
+    width: 60%;
+}
+footer{
+    background:var(--color-primary);
+    height: 187px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

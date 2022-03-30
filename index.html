@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,29 +27,50 @@
     <main>
       <header>
         <!--logo-->
-        <img alt="logo" src="./assets/UIUX Designer.svg" />
-        <!--navegacion-->
-        <nav></nav>
+        <div class="logo">
+          <p class="header_name">uiux designer</p>
+          <!-- <img alt="logo" src="./assets/UIUX Designer.svg" /> --> 
+          <!--navegacion-->
+          <nav class="header_nav">
+            <a href="">Home</a>
+            <a href="">Work</a>
+            <a href="">Testimonials</a>
+            <a href="">About</a>
+          </nav>
+        </div> 
         <!--icons-->
-        <div></div>
+        <div class="header_icons">
+          <img src="assets/Dribbble.svg" alt="Logo Dribbble">
+          <img src="assets/Instagram.svg" alt="Logo Instagram">
+          <img src="assets/Pinterest.svg" alt="Logo Pinterest">
+          <img src="assets/Linkedin.svg" alt="Logo Linkedin">
+        </div>
       </header>
-
       <!--banner-->
-      <section>
-        <div>
-          <a><img alt="hello" src="./assets/hello.png" />Hello All</a>
+      <section class="banner">
+        <div class="banner_left">
+          <div class="banner_hello">
+            <a>👋 Hello All</a>
+          </div>
           <!--title-->
           <h1>I’m Chiranjit H, A UI/UX Designer and Developer</h1>
+          <div class="banner_buttons">
+            <button class="button_fill">
+              View my work
+              <img src="assets/Exclude.svg" alt="">
+            </button>
+            <button class="button_empty">Contact me</button>
+          </div>
         </div>
         <!--portada-->
         <img alt="logo" src="./assets/unsplash_Pm_926lM-xI.png" />
       </section>
 
       <!--section 2-->
-      <section>
-        <div>
+      <section class="featured_work">
+        <div class="featured_title">
           <h2>Featured Work</h2>
-          <button></button>
+          <button class="button_featured">View more on Behance</button>
         </div>
 
         <!--article informacion-->

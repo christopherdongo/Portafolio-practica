@@ -37,6 +37,7 @@ header{
     font-size: 28px;
     text-transform: uppercase;
     color: var(--color-black);
+    cursor: pointer;
 }
 .header_nav{
     display: flex;
@@ -56,6 +57,9 @@ header{
     display: flex;
     gap: 24px;
     color: #4D5566;
+}
+.header_icons img{
+    cursor: pointer;
 }
 
 /* Banner */
@@ -91,6 +95,7 @@ h1{
     font-size: 64px;
     letter-spacing: 0.02em;
     line-height: 125%;
+    margin-top: 24px;
     width: 550px;
 }
 section img{
@@ -98,6 +103,7 @@ section img{
     height: 541px;
 }
 .banner_buttons{
+    margin-top: 40px;
     display: flex;
     gap: 16px;
 }

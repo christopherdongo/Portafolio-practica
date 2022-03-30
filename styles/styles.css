@@ -2,6 +2,7 @@
     --color-primary:rgba(120, 14, 255, 0.93);
     --color-bg-input: rgba(196, 196, 196, 0.3);
     --color-parrafo: #594F43;
+    --color-white:#E5E5E5;
     --font-family: 'Work Sans', sans-serif;
     --font-familySecond: 'Eczar', serif;
 }
@@ -12,3 +13,52 @@
     padding: 0;
 }
 
+
+/*CHRISTOPHER DONGO*/
+
+.container-some{
+
+}
+.container-about{
+
+}
+.container-form{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.form{
+    max-width: 736px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-direction: column;
+}
+
+.form-group_container-input{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.form-group_input{
+    width: 100%;
+    border-radius: 30px;
+    background-color: var(--color-bg-input);
+    padding: 28px;
+    border: none;
+}
+.form-group_input-subject{
+    width: 60%;
+}
+
+
+footer{
+    background:var(--color-primary);
+    height: 187px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

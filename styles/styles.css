@@ -24,6 +24,7 @@ main {
   margin: 0 auto;
 }
 /* Header */
+<<<<<<< HEAD
 header {
   width: 100%;
   margin: 0 auto;
@@ -32,6 +33,34 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
   display: flex;
   justify-content: space-between;
+=======
+header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px 120px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+}
+.header_name{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: var(--color-black);
+    cursor: pointer;
+}
+.header_nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+>>>>>>> dc5ddd9360822a9262f4b047158a97f9f298732b
 }
 .logo {
   display: flex;
@@ -63,8 +92,12 @@ header {
   gap: 24px;
   color: #4d5566;
 }
+.header_icons img{
+    cursor: pointer;
+}
 
 /* Banner */
+<<<<<<< HEAD
 .banner {
   width: 100%;
   padding-top: 45px;
@@ -105,6 +138,69 @@ section img {
 .banner_buttons {
   display: flex;
   gap: 16px;
+=======
+.banner{
+    width: 100%;
+    padding: 32px 120px;
+    padding-top: 45px;
+    padding-bottom: 124px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_left{
+    display: flex;
+    flex-direction: column;
+}
+.banner_hello{
+    width: 200px;
+    padding: 12px 24px;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+h1{
+    font-family: 'Eczar';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    line-height: 125%;
+    margin-top: 24px;
+    width: 550px;
+}
+section img{
+    width: 733px;
+    height: 541px;
+}
+.banner_buttons{
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+}
+.banner_buttons button{
+    margin: 0;
+    padding: 0;
+    padding: 15px 24px;
+    width: 230px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+>>>>>>> dc5ddd9360822a9262f4b047158a97f9f298732b
 }
 .banner_buttons button {
   margin: 0;
@@ -138,6 +234,7 @@ section img {
 }
 
 /* featured_work */
+<<<<<<< HEAD
 .featured_work {
   width: 100%;
   background-color: var(--color-primary);
@@ -145,6 +242,17 @@ section img {
 .featured_title {
   margin-top: 60px;
   display: flex;
+=======
+.featured_work{
+    width: 100%;
+    background-color: var(--color-primary);
+    padding: 32px 120px;
+    padding-top: 62px;
+}
+.featured_title{
+    display: flex;
+    gap: 69px;
+>>>>>>> dc5ddd9360822a9262f4b047158a97f9f298732b
 }
 h2 {
   font-family: "Eczar";
@@ -153,12 +261,72 @@ h2 {
   font-size: 40px;
   color: white;
 }
+<<<<<<< HEAD
 .button_featured {
   width: 302px;
   height: 60px;
   background-color: transparent;
   border: 4px solid white;
+=======
+.button_featured{
+    width: 302px;
+    height: 60px;
+    background-color: transparent;
+    border: 4px solid white;
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
 }
+.featured_container{
+    margin-top: 70px;
+    margin-bottom: 158px;
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+>>>>>>> dc5ddd9360822a9262f4b047158a97f9f298732b
+}
+.featured_post{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 124px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.featured_post-content{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.featured_post-content h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+}
+.featured_post-content p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 24px;
+}
+.featured_post-content a{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+.featured_post img{
+    height: 414px;
+}
+
+
 /*CHRISTOPHER DONGO*/
 
 .container-about {

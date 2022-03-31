@@ -3,6 +3,7 @@
   --color-bg-input: rgba(196, 196, 196, 0.3);
   --color-parrafo: #594f43;
   --color-black: rgba(27, 26, 25, 1);
+  --color-black2:rgba(2, 2, 2, 1);
   --color-white:rgba(255, 255, 255, 1);
   --font-family: "Work Sans", sans-serif;
   --font-familySecond: "Eczar", serif;
@@ -328,6 +329,98 @@ h2 {
 
 
 /*CHRISTOPHER DONGO*/
+
+.container-some{
+ display: flex;
+ flex-direction: column;
+ padding: 108px 68px 187px 81px;
+ position: relative;
+}
+.some_flechas{
+  width: 25.08px;
+  height: 43px;
+  position: absolute;
+  bottom: 292.5px;
+  display: block;
+  margin: 0;
+}
+
+.some-container_title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.some-title{
+text-align: center;
+font-size: 40px;
+line-height: 50px;
+letter-spacing: 2%;
+font-weight: 600;
+font-family: var(--font-familySecond);
+color: var(--color-black2);
+}
+.some-parrafo{
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2%;
+  font-weight: 500;
+  font-family: var(--font-family);
+  color: rgba(89, 79, 67, 1);
+
+}
+.some-description{
+  display: flex;
+  margin-top: 130px;
+  gap: 192px;
+  justify-content: center;
+}
+
+.some_flechas-right {
+ left: 109.67px;
+}
+.some_flechas-left{
+right:96.97px;
+}
+
+.someCard{
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.card-left{
+ padding-left: 148px;
+}
+.card-right{
+  padding-right: 168px;
+}
+.someCard_parrafo{
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.someCard span{
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: var(--font-family);
+}
+
+.some-container_icons{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap:26.67px;
+  height: 32px;
+}
+.icons_social{
+  width: 32px;
+  height: 32px;
+}
 
 .container-about {
   display: flex;

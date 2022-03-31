@@ -265,13 +265,14 @@ background-size: cover;
   border: none;
   background-color: var(--color-bg-input);
   border-radius: 30px;
-  padding: 21px 33px 0 33px;
+  padding: 21px 33px 21px 33px;
   font-size: 20px;
 }
-.form-textarea::placeholder {
+textarea::placeholder {
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
+  padding: 0px;
   color: var(--color-black);
 }
 .form-group_container-button {

@@ -476,6 +476,10 @@ background-size: cover;
   flex-direction: column;
   padding: 167px 0 167px 0;
 }
+.container-form_title{
+  max-width: 736px;
+  width: 100%;
+}
 .form-title {
   font-family: var(--font-familySecond);
   font-weight: 600;
@@ -483,7 +487,7 @@ background-size: cover;
   line-height: 80px;
   letter-spacing: 2%;
   margin-bottom: 43px;
-  text-align: center;
+  text-align: left;
 }
 .form {
   width: 100%;

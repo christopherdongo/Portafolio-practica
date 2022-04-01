@@ -233,9 +233,14 @@ section img{
 }
 
 /* featured_work */
+
 .featured_work {
   width: 100%;
   background-color: var(--color-primary);
+}
+.featured_title {
+  margin-top: 60px;
+  display: flex;
 }
 .featured_work{
     width: 100%;
@@ -243,12 +248,11 @@ section img{
     padding: 32px 120px;
     padding-top: 62px;
 }
-.featured_title {
-  display: flex;
-}
+
 .featured_title{
     display: flex;
     gap: 69px;
+
 }
 h2 {
   font-family: "Eczar";
@@ -257,12 +261,12 @@ h2 {
   font-size: 40px;
   color: white;
 }
+
 .button_featured {
   width: 302px;
   height: 60px;
   background-color: transparent;
   border: 4px solid white;
-  border-radius: 5px;
 }
 .button_featured{
     width: 302px;
@@ -276,12 +280,14 @@ h2 {
     font-size: 20px;
     cursor: pointer;
 }
+
 .featured_container{
     margin-top: 70px;
     margin-bottom: 158px;
     display: flex;
     flex-direction: column;
     gap: 57px;
+
 }
 .featured_post{
     margin: 0;
@@ -309,8 +315,6 @@ h2 {
     font-family: 'Work Sans';
     font-style: normal;
     font-size: 24px;
-    line-height: 1.25;
-    color: #594F43;
 }
 .featured_post-content a{
     font-family: 'Work Sans';
@@ -339,8 +343,8 @@ h2 {
   bottom: 292.5px;
   display: block;
   margin: 0;
-  cursor: pointer;
 }
+
 .some-container_title{
   width: 100%;
   display: flex;
@@ -364,6 +368,7 @@ color: var(--color-black2);
   font-weight: 500;
   font-family: var(--font-family);
   color: rgba(89, 79, 67, 1);
+
 }
 .some-description{
   display: flex;
@@ -415,8 +420,8 @@ right:96.97px;
 .icons_social{
   width: 32px;
   height: 32px;
-  cursor: pointer;
 }
+
 .container-about {
   display: flex;
   flex-direction: row;
@@ -428,7 +433,7 @@ right:96.97px;
 }
 .container-about_parrafo{
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 30px;
     font-weight: 400;
     font-family: var(--font-family);
     color: var(--color-white);
@@ -460,15 +465,11 @@ right:96.97px;
   background-image: url("../assets/unsplash_wH3DddKXPoQ.png");
   object-fit: cover;
   background-repeat:no-repeat;
-<<<<<<< HEAD
 background-size: cover;
 background-position: center;
 
-=======
-  background-size: cover;
-  background-position: center center;
->>>>>>> b6ec65885ec261ffc9a5e8d5ae46ce66d61ab4e6
 }
+
 .container-form {
   display: flex;
   justify-content: center;
@@ -555,8 +556,8 @@ textarea::placeholder {
   line-height: 30px;
   border: 3px solid var(--color-primary);
   padding: 15px 35px;
-  cursor: pointer;
 }
+
 footer {
   background: var(--color-primary);
   height: 187px;
